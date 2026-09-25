@@ -3,18 +3,15 @@ using namespace std;
 
 main()
 {
-	double alas,
-	tinggi,
-	setengah = 0.5;
-	
-	
+	int alas,tinggi;
+	double setengah = 0.5;
 	cout<<"Hitunglah Luas Segitiga"<<endl;
-	cout<<"Masukan Alas : ";
+	cout<<"Masukan alas : ";
 	cin>>alas;
-	cout<<"Masukan Tinggi : ";
+	cout<<"Masukan tinggi : ";
 	cin>>tinggi;
 	
 	double luas = setengah * alas * tinggi;
-	cout<<"Luas segitiga adalah : "<<luas<<endl;
+	cout<<"Luas segitiga "<<luas<<endl;
 	return 0;
 }
