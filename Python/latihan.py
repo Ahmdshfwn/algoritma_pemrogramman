@@ -1,0 +1,11 @@
+print('NAMA : ')
+name = input('NAMA : ')
+NIM = input('NIM : ')
+kelas = input('KELAS : ')
+alamat = input('ALAMAT : ')
+
+print('DATA SISWA \n')
+print(f'Nama : {name}')
+print(f'NIM : {NIM}')
+print(f'Kelas : {kelas}' )
+print(f'Alamat : {alamat}')
